@@ -22,14 +22,14 @@
 }
 
 .chat-container {
-  margin-top: 50px; /* Adjust margin to account for Navbar height */
-  margin-bottom: 0px; /* Adjust margin to account for Footer height */
+  margin-top: 50px; 
+  margin-bottom: 0px;
   flex: 1;
   display: flex;
   flex-direction: column;
   border: 20px solid black;
-  padding: 10px; /* Add padding to the chat container */
-  background: linear-gradient(to bottom, #273450ff, #224c56ff); /* Gradient from red to orange */
+  padding: 10px; 
+  background: linear-gradient(to bottom, #273450ff, #224c56ff); 
   overflow-y: scroll;
 }
 
@@ -40,14 +40,14 @@
 
 .message {
     margin-bottom: 10px;
-    max-width: 50vw; /* Set the width to 50vw */
-    word-wrap: break-word; /* Add word-wrap to allow text wrapping */
-    display: flex; /* Use flex display for alignment */
+    max-width: 50vw;
+    word-wrap: break-word;
+    display: flex; 
   }  
   
   .message.user {
-    margin-left: auto; /* Push user messages to the right */
-    background-color: #335c7bff; /* Change background color for user messages */
+    margin-left: auto;
+    background-color: #335c7bff; 
     color: white;
     padding: 8px;
     border-radius: 8px;
@@ -74,7 +74,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 150px;
-  width: calc(100vw - 40px); /* Calculate width by subtracting 20px from 100vw */
+  width: calc(100vw - 40px);
   position: relative;
 }
 
@@ -83,7 +83,7 @@
   padding: 8px;
   border: none;
   outline: none;
-  background-color: white; /* Set input background to white */
+  background-color: white;
 }
 
 .input-box button {

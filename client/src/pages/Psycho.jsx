@@ -14,7 +14,7 @@ function Psycho() {
   };
 
   const sendMessage = async () => {
-    if (isSpeaking) return; // Don't send messages when in speaking mode
+    if (isSpeaking) return; 
 
     if (inputText.trim() === '') return;
     const message = { text: inputText };
@@ -63,7 +63,7 @@ function Psycho() {
             value={inputText}
             onChange={(e) => setInputText(e.target.value)}
             placeholder="Type your message here..."
-            disabled={isSpeaking} // Disable input when in speaking mode
+            disabled={isSpeaking} 
           />
           <button onClick={sendMessage} disabled={isSpeaking}>
             Send
